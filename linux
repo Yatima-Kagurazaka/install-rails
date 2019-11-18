@@ -68,8 +68,8 @@ log_info "Installing Ruby $ruby_version ..."
 #  rbenv install "$ruby_version"
 
 log_info "Setting $ruby_version as global default Ruby ..."
-  rbenv global $ruby_version
-  rbenv rehash
+#  rbenv global $ruby_version
+#  rbenv rehash
 
 log_info "Updating to latest Rubygems version ..."
   gem update --system
