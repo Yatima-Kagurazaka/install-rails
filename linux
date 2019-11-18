@@ -78,7 +78,7 @@ log_info "Installing Rails ..."
   gem install rails
 
 log_info "Installing Bundler ..."
-  gem install bundler
+#  gem install bundler
 
 log_info "Installing Mailcatcher ..."
   gem install mailcatcher
